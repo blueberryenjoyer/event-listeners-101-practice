@@ -1,6 +1,6 @@
 // In this exercise, we will design a "game" where the objective is to click a button and earn as many clicks as possible.
-
-// Note that all of these exercises do not have any linking between the JS and HTML files. Be sure to practice linking the two files before starting your actual coding work below. 
+console.log(1)
+// Note that all of these exercises do not have any linking between the JS and HTML files. Be sure to practice linking the two files before starting your actual coding work below.
 
 // First, we'll need our HTML "cooking ingredients". Fetch the elements that we will be modifying or manipulating in this exercise. Take a close look at the HTML file and think about what user actions are occurring on what element, and what elements are changing in response to those user actions. 
 
