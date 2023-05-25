@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +12,27 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; 
-            background-color: #f0f0f0; 
-            margin: 0; 
-            padding: 0; 
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
         }
 
         .squares {
             width: 100px;
             height: 100px;
-            margin: 0 20px; 
+            margin: 0 20px;
             border: 2px solid black;
         }
     </style>
 </head>
+
 <body>
-    <div class="squares" id="cell-one"></div>
+    <div class="squares" id="cell-one" onclick="cellone()" ondblclick="cellone2()"></div>
 
-    <div class="squares" id="cell-two"></div>
+    <div class="squares" id="cell-two" onmouseover="celltwo()" onmouseout="celltwo2()"></div>
 
-    <div class="squares" id="cell-three"></div>
+    <div class="squares" id="cell-three" onclick="cellthree()" oncontextmenu="cellthree1()"></div>
 </body>
+
 </html>
